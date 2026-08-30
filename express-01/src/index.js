@@ -24,4 +24,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // Exportação necessária para a Vercel tratar o Express como Serverless Function
-module.exports = app;
+export default app;
